@@ -1,0 +1,196 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+	scroll-behavior: smooth;
+}
+body h2{
+	font-family: "Agency FB";
+	font-weight: bolder;
+	padding: 15px 0 15px 0;
+	font-size: 60px;
+}
+#wrap{
+	width: 100%;
+}
+.foto {
+	border: none;
+	height: 200px;
+	border: 8px solid #701baf;
+	border-radius: 50%;
+}
+.sidebar-pos{
+	text-align: center;
+	padding-top: 50px;
+}
+.img-sidebar{
+	padding: 0 0 50px 0;
+}
+.sidebar{
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	background-color: #4B0082;
+}
+.menu a{
+	text-align: center;
+	display: block;
+	padding-top: 50px;
+	text-decoration: none;
+	color: rgba(220, 220, 220, 0.5);
+	font-family: "Agency FB";
+	padding: 15px;
+	font-size: 20px;
+}
+.menu a:hover{
+	color: white;
+	background-color:rgba(220, 220, 220, 0.5);
+	font-size: 23px;
+}
+section{
+	float: right;
+	width: 80%;
+	padding: 200px 20px 0 30px;
+}
+section h1{
+	font-size: 100px;
+	font-family: "Agency FB";
+}
+section h4{
+	color: #A9A9A9;
+	line-height: 1.5;
+}
+section span{
+	color: #4B0082
+}
+.resumo h4{
+	padding: 10px 0 0 0;
+	font-family: arial;
+}
+.resumo q{
+	font-size: 17px;
+	font-family: californian FB;
+	color:#616060;
+	font-weight: bolder;
+}
+.resumo p{
+	font-size: 14px;
+	font-family: Arial;
+	color: #A9A9A9;
+}
+.facebook{
+	padding-top: 20px;
+	height: 55px;
+}
+.insta{
+	padding: 20px 10px 0 10px;
+	height: 55px;
+}
+.linkedin{
+	padding: 20px 10px 0 0;
+	height: 55px;
+}
+.zap{
+	padding: 20px 10px 0 0;
+	height: 55px;
+}
+.sobre{
+	padding: 150px 0 0 0;
+	line-height: 3.0;
+}
+.sobre h4{
+	padding: 10px 0 10px 0;
+	font-family: bodoni MT;
+	font-size: 20px;
+}
+.sobre span{
+	font-family: "Arial";
+	font-weight: bolder;
+}
+.empresas h3{
+	font-family: "Clarendon BT";
+	font-size: 25px;
+}
+.empresas p{
+	font-family: arial;
+}
+.cargo_funcao h4{
+	font-family: "Clarendon BT";
+	font-size: 17px;
+}
+.cargo_funcao h5{
+	font-family: Agency FB;
+}
+.igabam h3{
+	background-color: indigo;
+	color: white;
+}
+.pluma h3{
+	background-color: indigo;
+	color: white;
+}
+.pluma span{
+	color: black;
+	padding: 0 0 0 15px;
+}
+.formacao h3{
+	font-family: "Clarendon BT";
+	font-size: 25px;
+}
+.formacao h4, h6{
+	font-family: "Clarendon BT";
+	font-size: 17px;
+}
+.formacao h5{
+	font-family: Agency FB;
+}
+.formacao span{
+	color: black;
+	padding: 0px 0 0 15px;
+}
+.contato h2{
+	text-align: center;
+	font-family: "Agency FB";
+	font-weight: bolder;
+	padding: 15px 0 5px 0px;
+	font-size: 50px;
+}
+.icons_final{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.contato p{
+	text-align: center;
+	font-family: Agency FB;
+	font-size: 20px;
+}
+.zap{
+	padding: 10px 10px 10px 0;
+	height: 40px;
+}
+footer{
+	width: 80%;
+	float: right;
+	clear: both;
+	padding: 10px 0 0 0;
+	height: 30px;
+	font-size: 10px;
+	background-color: indigo;
+	color: white;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+footer p{
+	margin: 0px
+}
+.email{
+	padding: 20px 0px 0px 0;
+	height: 55px;
+}
+#wrao{
+	scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+
+}
